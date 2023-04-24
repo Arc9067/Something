@@ -155,7 +155,7 @@ header nav li a {
   font-size: 100px;
   line-height: 116px;
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #hero .row h1.title {
     font-size: 54px;
     line-height: 63px;
@@ -168,4 +168,48 @@ header nav li a {
 }
 #hero .row div:nth-child(2) {
   background-color: #00b0a5;
+}
+
+main {
+  width: 100%;
+}
+main #about {
+  width: 100%;
+  padding-block: 50px;
+}
+main #about .inner:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 10px;
+  z-index: -1;
+}
+main #about .inner {
+  min-height: 300px;
+  width: 95%;
+  background-color: var(--first-color);
+  border-radius: 20px;
+  position: relative;
+  padding-block: 20px;
+}
+main #about .inner img {
+  width: 244px;
+}
+main #about .inner h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+@media (max-width: 700px) {
+  main #about .inner h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+@media (min-width: 1000px) {
+  main #about .inner {
+    width: 1200px;
+  }
 }/*# sourceMappingURL=style.css.map */
