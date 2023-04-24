@@ -236,6 +236,11 @@ main #about .inner h1 {
   background: #da62a1;
 }
 
+#buy {
+  width: 100%;
+  padding-block: 50px;
+}
+
 footer {
   width: 100%;
   padding-block: 20px;
