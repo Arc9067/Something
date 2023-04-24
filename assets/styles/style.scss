@@ -254,3 +254,29 @@ main {
     }
   }
 }
+
+#tokenomics {
+  min-height: 100vh;
+  width: 100%;
+  padding-block: 50px;
+
+  .txt {
+    span {
+      width: 43.68px;
+      height: 42px;
+      display: inline-block;
+    }
+    .span1 {
+      background: #84b5fb;
+    }
+    .span2 {
+      background: #ff9e5e;
+    }
+    .span3 {
+      background: #91de7b;
+    }
+    .span4 {
+      background: #da62a1;
+    }
+  }
+}

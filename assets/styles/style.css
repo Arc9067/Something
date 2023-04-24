@@ -212,4 +212,27 @@ main #about .inner h1 {
   main #about .inner {
     width: 1200px;
   }
+}
+
+#tokenomics {
+  min-height: 100vh;
+  width: 100%;
+  padding-block: 50px;
+}
+#tokenomics .txt span {
+  width: 43.68px;
+  height: 42px;
+  display: inline-block;
+}
+#tokenomics .txt .span1 {
+  background: #84b5fb;
+}
+#tokenomics .txt .span2 {
+  background: #ff9e5e;
+}
+#tokenomics .txt .span3 {
+  background: #91de7b;
+}
+#tokenomics .txt .span4 {
+  background: #da62a1;
 }/*# sourceMappingURL=style.css.map */
