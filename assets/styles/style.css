@@ -82,29 +82,34 @@ img {
 }
 
 /*===== CLASS CSS ===== */
-.Place-holder {
-  min-height: 100vh;
-  width: 100%;
-  overflow-y: scroll;
+a.button {
+  padding: 16px 32px;
+  background: #2f8ac4;
+  border-radius: 1000px;
+  color: var(--white);
 }
-.Place-holder header {
+
+header {
   padding-block: 10px;
   width: 100%;
   background-color: var(--body-clr);
-  border-bottom: 3px solid #000;
   position: fixed;
   z-index: var(--z-fixed);
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Place-holder header .menu {
+header .menu {
   font-size: 40px;
   cursor: pointer;
 }
 @media (min-width: 700px) {
-  .Place-holder header .menu {
+  header .menu {
     display: none;
   }
 }
-.Place-holder header nav li a {
+header nav li a {
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -112,7 +117,7 @@ img {
   color: #000000;
 }
 @media (max-width: 700px) {
-  .Place-holder header nav ul {
+  header nav ul {
     position: absolute;
     top: 60px;
     right: 0;
@@ -126,39 +131,40 @@ img {
     align-items: center;
     transition: all 0.3s linear;
   }
-  .Place-holder header nav ul li:first-child {
-    border-top: 3px solid #000;
-  }
-  .Place-holder header nav ul li {
-    border-bottom: 3px solid #000;
+  header nav ul li {
     width: 100%;
     text-align: center;
     padding-block: 10px;
   }
-  .Place-holder header nav .open-nav {
+  header nav .open-nav {
     height: 300px;
     padding-block: 20px 0;
   }
 }
-.Place-holder #hero {
+
+#hero {
   width: 100%;
-  padding-block: 80px;
+  background-color: var(--first-color);
 }
-.Place-holder #hero .row {
-  background: linear-gradient(180deg, #fcfe01 0%, #fdc301 100%);
-  padding: 2em;
+#hero .row {
+  max-width: 1500px;
+  margin-inline: auto;
 }
-.Place-holder #hero .row h1 {
-  font-style: normal;
+#hero .row h1.title {
   font-weight: 400;
-  font-size: 120px;
-  line-height: 140px;
-  color: #000000;
-  text-align: center;
+  font-size: 100px;
+  line-height: 116px;
 }
 @media (max-width: 700px) {
-  .Place-holder #hero .row h1 {
-    font-size: 60px;
-    line-height: 74px;
+  #hero .row h1.title {
+    font-size: 54px;
+    line-height: 63px;
   }
+}
+#hero .row div {
+  padding-block: 100px;
+  padding-inline: 20px;
+}
+#hero .row div:nth-child(2) {
+  background-color: #00b0a5;
 }/*# sourceMappingURL=style.css.map */
