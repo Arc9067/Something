@@ -6,7 +6,10 @@ menu.addEventListener("click", () => {
 });
 
 const audio = document.querySelector("#audio");
+const readyBtn = document.querySelector("#ready");
+const loadingSec = document.querySelector("#loading");
 
-window.addEventListener("touchstart", () => {
+readyBtn.addEventListener("click", () => {
+  loadingSec.style.display = "none";
   audio.play();
 });
