@@ -215,7 +215,6 @@ main #about .inner h1 {
 }
 
 #tokenomics {
-  min-height: 100vh;
   width: 100%;
   padding-block: 50px;
 }
@@ -235,4 +234,13 @@ main #about .inner h1 {
 }
 #tokenomics .txt .span4 {
   background: #da62a1;
+}
+
+footer {
+  width: 100%;
+  padding-block: 20px;
+}
+footer p {
+  font-size: 24px;
+  line-height: 28px;
 }/*# sourceMappingURL=style.css.map */

@@ -256,7 +256,6 @@ main {
 }
 
 #tokenomics {
-  min-height: 100vh;
   width: 100%;
   padding-block: 50px;
 
@@ -278,5 +277,15 @@ main {
     .span4 {
       background: #da62a1;
     }
+  }
+}
+
+footer {
+  width: 100%;
+  padding-block: 20px;
+
+  p {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
