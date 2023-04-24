@@ -1,6 +1,4 @@
-const menu = document.querySelector(".menu");
-const navmenu = document.querySelector(".nav-ul");
-
-menu.addEventListener("click", () => {
-  navmenu.classList.toggle("open-nav");
+window.addEventListener("load", () => {
+  const audio = new Audio("../img/sound1.mp3");
+  audio.play();
 });
